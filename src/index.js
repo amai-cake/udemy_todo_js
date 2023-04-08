@@ -10,7 +10,7 @@ const onClickAdd = () => {
  div.className = "list-row";
  console.log(div); 
 };
-
 document
   .getElementById("add-button")
   .addEventListener("click", () => onClickAdd());
+
